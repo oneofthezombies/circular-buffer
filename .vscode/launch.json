@@ -7,11 +7,11 @@
     {
       "type": "lldb",
       "request": "launch",
-      "name": "Debug",
+      "name": "Debug test",
       "program": "${workspaceFolder}/build/circular_buffer_test",
       "args": [],
       "cwd": "${workspaceFolder}",
-      "stopOnEntry": true
+      "preLaunchTask": "CMake Build"
     }
   ]
 }
